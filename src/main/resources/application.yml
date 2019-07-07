@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  port: 8080
+
+spring:
+  application:
+    name: catalog
+  profiles:
+    active: test
